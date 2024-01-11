@@ -31,6 +31,6 @@ function calculateThickness() {
     var plateForOneFour = findValidPlate(oneFour);
 
     var resultContainer = document.getElementById("resultContainer");
-    resultContainer.innerHTML = "Valid thickness for 1.2 multiplier is " + plateForOneTwo + "<br>" +
-        "Valid thickness for 1.4 multiplier is " + plateForOneFour;
+    resultContainer.innerHTML = "The valid plate thickness for 1.2 multiplier is " + plateForOneTwo + "<br>" +
+        "The valid plate thickness for 1.4 multiplier is " + plateForOneFour;
 }
